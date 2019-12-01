@@ -137,6 +137,32 @@
           </div>
         </div>
       </div>
+      <div class="content_title col-sm-12">
+        <h2>Nuxt.js</h2>
+        <p>
+          Vue.jsのフレームワークであるNuxt.jsを書籍で学びました。
+        </p>
+      </div>
+      <div class="col-sm-4 content_book">
+        <p>・Vue.js入門 基礎から実践アプリケーション開発まで</p>
+        <img
+          class="img-fluid img-thumbnail mh-100 mx-auto d-block book-img"
+          src="../../assets/image/Nuxt.jpg"
+          alt=""
+        />
+      </div>
+      <div class="col-sm-6">
+        <p>Nuxtを使用した理由</p>
+        <p>
+          ・ディレクトリ構成やルーティング・レンダリングなどを行ってくれる。
+        </p>
+        <p>
+          ・ページ毎の機能が決まっているのでVue.jsに比べると、良い意味で規則が堅い
+        </p>
+        <p>
+          ・モダンなフレームワークを身に付けたかった
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -157,6 +183,10 @@ export default {}
 
 .content_text {
   margin-bottom: 40px;
+}
+
+.content_book {
+  margin: 0 0 40px auto;
 }
 
 .book-img {
