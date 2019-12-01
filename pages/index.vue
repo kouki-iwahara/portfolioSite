@@ -1,23 +1,22 @@
 <template>
-  <div class="container">
-    <div class="header">
-      <Header />
+  <div>
+    <Header />
+    <div class="wrapper">
+      <about-me />
     </div>
   </div>
 </template>
 
 <script>
 import Header from '~/components/Header.vue'
+import AboutMe from '~/components/pages/AboutMe.vue'
 
 export default {
   components: {
-    Header
+    Header,
+    AboutMe
   }
 }
 </script>
 
-<style scoped>
-.container {
-  max-width: 1200px;
-}
-</style>
+<style></style>
