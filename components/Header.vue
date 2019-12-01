@@ -23,6 +23,9 @@ export default {}
 </script>
 
 <style scoped>
+b-navbar {
+  max-width: 1200px;
+}
 .navbar-collapse {
   flex-grow: 0;
   margin: 0 0 0 auto;
