@@ -15,7 +15,7 @@
           controls
           muted
           class="img-fluid img-thumbnail mh-100 mx-auto d-block"
-          src="../../assets/image/costApp.mp4"
+          src="../../assets/image/todo.mp4"
         />
       </div>
       <div class="col-sm-6 content_text">
