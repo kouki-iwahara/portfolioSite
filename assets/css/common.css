@@ -1,0 +1,15 @@
+.wrapper {
+  max-width: 1200px;
+}
+
+h2 {
+  padding: 20px 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+.content_title {
+  text-align: center;
+}

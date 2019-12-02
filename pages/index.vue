@@ -1,68 +1,66 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        portfolioSite
-      </h1>
-      <h2 class="subtitle">
-        My stellar Nuxt.js project
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+  <div>
+    <b-navbar toggleable="md" type="dark" variant="info">
+      <b-navbar-brand>岩原 公貴 Portfolio Site</b-navbar-brand>
+
+      <b-navbar-toggle target="nav-collapse" />
+
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav>
+          <b-nav-item v-scroll-to="'#aboutme'" to>about me</b-nav-item>
+          <b-nav-item v-scroll-to="'#javascript'" to>JavaScript</b-nav-item>
+          <b-nav-item v-scroll-to="'#vue'" to>Vue.js</b-nav-item>
+          <b-nav-item v-scroll-to="'#nuxt'" to>Nuxt.js</b-nav-item>
+          <b-nav-item v-scroll-to="'#node'" to>Node.js</b-nav-item>
+          <b-nav-item v-scroll-to="'#develop'" to>個人開発</b-nav-item>
+          <b-nav-item v-scroll-to="'#others'" to>Others</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+    <about-me id="aboutme" />
+    <java-script id="javascript" />
+    <vue-page vue-id="vue" nuxt-id="nuxt" />
+    <node-page id="node" />
+    <cost-app-page id="develop" />
+    <others id="others" />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// import Header from '~/components/Header.vue'
+import AboutMe from '~/components/pages/AboutMe.vue'
+import JavaScript from '~/components/pages/JavaScript.vue'
+import VuePage from '~/components/pages/VuePage.vue'
+import NodePage from '~/components/pages/NodePage.vue'
+import CostAppPage from '~/components/pages/CostAppPage.vue'
+import Others from '~/components/pages/Others.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
-    Logo
+    // Header,
+    AboutMe,
+    JavaScript,
+    VuePage,
+    NodePage,
+    CostAppPage,
+    Others,
+    Footer
   }
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+<style scoped>
+b-navbar {
+  max-width: 1200px;
+}
+.navbar-collapse {
+  flex-grow: 0;
+  margin: 0 0 0 auto;
 }
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.nav-link {
+  font-weight: bold;
 }
 </style>
