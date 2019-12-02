@@ -2,7 +2,7 @@
   <div class="content container-fluid">
     <div class="row">
       <div class="content_title col-sm-12">
-        <h2>Node.js</h2>
+        <h2 :id="id">Node.js</h2>
         <p>
           Node.jsの学習は、書籍でNode.jsを学習してから、純正のJavaScriptで制作したクイズアプリ、ToDoリストをExpress.jsを使用してMVCの概念に基づき実装しました。
         </p>
@@ -100,7 +100,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    id: {
+      type: String,
+      default: null
+    }
+  }
+}
 </script>
 
 <style scoped>

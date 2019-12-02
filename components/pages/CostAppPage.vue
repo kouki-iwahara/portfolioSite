@@ -2,7 +2,7 @@
   <div class="content container-fluid">
     <div class="row">
       <div class="content_title col-sm-12">
-        <h2>個人開発</h2>
+        <h2 :id="id">個人開発</h2>
         <h3>飲食店の業務改善、レシピの共有がテーマ</h3>
         <p>
           これまでのスキルを総動員して、実際の現場でも使える飲食店の業務改善・レシピの共有をテーマにしたwebアプリを作成。<br />
@@ -53,7 +53,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    id: {
+      type: String,
+      default: null
+    }
+  }
+}
 </script>
 
 <style scoped>
