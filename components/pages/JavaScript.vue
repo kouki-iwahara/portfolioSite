@@ -20,7 +20,7 @@
             <a href="https://github.com/kouki-iwahara/javascript_practice1"
               >GitHubソースコード</a
             >
-            <p>学んだこと</p>
+            <p>【学んだこと】</p>
             <p>・DOM</p>
             <p>
               ブラウザに入力した文字を取得し、操作して反映させる仕組みを学びました。
@@ -61,7 +61,7 @@
             <a href="https://github.com/kouki-iwahara/javascript_practice2"
               >GitHubソースコード</a
             >
-            <p>学んだこと</p>
+            <p>【学んだこと】</p>
             <p>・オブジェクト指向</p>
             <p>
               オブジェクトを生成し、todoのデータを個別に保持する方法を学びました
@@ -100,7 +100,7 @@
             <a href="https://github.com/kouki-iwahara/QuizApp"
               >GitHubソースコード</a
             >
-            <p>学んだこと</p>
+            <p>【学んだこと】</p>
             <p>・外部APIの取得</p>
             <p>
               fetchメソッドを使用した外部APIの取得方法を学びました。
@@ -111,8 +111,8 @@
             <p>
               thenメソッドを使用した非同期処理を学びました。
             </p>
-            <p>[ポイント]</p>
-            <p>実装を適切に関数に分け、読みやすさを意識しました。</p>
+            <p>【ポイント】</p>
+            <p>実装を適切に関数に分け、可読性を意識しました。</p>
           </div>
         </div>
       </div>
