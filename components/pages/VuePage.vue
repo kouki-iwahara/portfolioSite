@@ -20,7 +20,9 @@
         <div class="row">
           <div class="col-sm-12 content_text">
             <h3>FizzBuzz</h3>
-            <a href="https://github.com/kouki-iwahara/vue_FizzBuzz"
+            <a
+              href="https://github.com/kouki-iwahara/vue_FizzBuzz"
+              target="”_blank”"
               >GitHubソースコード</a
             >
             <p>【学んだこと】</p>
@@ -32,6 +34,7 @@
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/ab1bcf6e948e37fbdd8b"
+                target="”_blank”"
                 >Qiita執筆:主要なオプションオブジェクトのまとめ
               </a>
             </p>
@@ -62,12 +65,16 @@
           <div class="col-sm-12 content_text">
             <h3>簡易ToDoリスト</h3>
             <p>
-              <a href="https://github.com/kouki-iwahara/vue_TodoList"
+              <a
+                href="https://github.com/kouki-iwahara/vue_TodoList"
+                target="”_blank”"
                 >GitHubソースコード</a
               >
             </p>
             <p>
-              <a href="https://github.com/kouki-iwahara/vuex_todoList"
+              <a
+                href="https://github.com/kouki-iwahara/vuex_todoList"
+                target="”_blank”"
                 >Vuexを使用 GitHubソースコード</a
               >
             </p>
@@ -79,6 +86,7 @@
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/11ebb08863c38bd0c8fd"
+                target="”_blank”"
                 >Qiita執筆:
                 v-forを使う時、配列に初期値があると初めから画面に表示されてしまう
               </a>
@@ -86,42 +94,49 @@
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/f1cc04559a81a728785a"
+                target="”_blank”"
                 >Qiita執筆:コンポーネントの基本的な説明と書き方
               </a>
             </p>
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/ff5748db977768fd7669"
+                target="”_blank”"
                 >Qiita執筆:Vuexの入り口
               </a>
             </p>
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/1a75daaa93657b0b56d7"
+                target="”_blank”"
                 >Qiita執筆:ストアの4つの概念まとめ
               </a>
             </p>
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/a00b4bfd4a649e1062e3"
+                target="”_blank”"
                 >Qiita執筆:テンプレートがコンパイルできない
               </a>
             </p>
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/839f924bc4460c55cbf0"
+                target="”_blank”"
                 >Qiita執筆:ストアとコンポーネント間の通信
               </a>
             </p>
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/e80d6ec66cdd25ff7bab"
+                target="”_blank”"
                 >Qiita執筆:単一ファイルコンポーネント〜機能解説からビルド〜
               </a>
             </p>
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/5941ed7b7edf5dc41a54"
+                target="”_blank”"
                 >Qiita執筆:Vuex、Vue-router、コンポーネントの基礎がまとめて分かる簡易カウンターアプリを作る
               </a>
             </p>

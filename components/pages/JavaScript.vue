@@ -17,7 +17,9 @@
         <div class="row">
           <div class="col-sm-12 content_profile">
             <h3 class="col-sm-12">FizzBuzz</h3>
-            <a href="https://github.com/kouki-iwahara/javascript_practice1"
+            <a
+              href="https://github.com/kouki-iwahara/javascript_practice1"
+              target="”_blank”"
               >GitHubソースコード</a
             >
             <p>【学んだこと】</p>
@@ -32,12 +34,14 @@
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/8e1e16fb836fbb7a6859"
+                target="”_blank”"
                 >Qiita執筆: NaNを使った条件分岐について</a
               >
             </p>
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/a85b4c9260ef545b7a52"
+                target="”_blank”"
                 >Qiita執筆: データ型を文字列として取得する際の書き方と注意点</a
               >
             </p>
@@ -58,7 +62,9 @@
         <div class="row">
           <div class="col-sm-12 content_profile">
             <h3>簡易ToDoリスト</h3>
-            <a href="https://github.com/kouki-iwahara/javascript_practice2"
+            <a
+              href="https://github.com/kouki-iwahara/javascript_practice2"
+              target="”_blank”"
               >GitHubソースコード</a
             >
             <p>【学んだこと】</p>
@@ -77,6 +83,7 @@
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/3c31fdfc74ac0b8a5137"
+                target="”_blank”"
                 >Qiita執筆: オブジェクトを生成し情報を保持する</a
               >
             </p>
@@ -97,7 +104,7 @@
         <div class="row">
           <div class="col-sm-12 content_profile">
             <h3>クイズアプリ</h3>
-            <a href="https://github.com/kouki-iwahara/QuizApp"
+            <a href="https://github.com/kouki-iwahara/QuizApp" target="”_blank”"
               >GitHubソースコード</a
             >
             <p>【学んだこと】</p>
