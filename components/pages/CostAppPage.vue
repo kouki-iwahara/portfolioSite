@@ -22,9 +22,19 @@
         <div class="row">
           <div class="col-sm-12 content_profile">
             <h3>原価管理アプリ</h3>
-            <a href="https://github.com/kouki-iwahara/CostApp"
+            <a href="https://github.com/kouki-iwahara/CostApp" target="”_blank”"
               >GitHubソースコード</a
             >
+            <p>
+              デプロイURL:
+              <a
+                href="https://cost-management-app.herokuapp.com/"
+                target="”_blank”"
+                >https://cost-management-app.herokuapp.com/</a
+              ><br />
+              簡単ログイン機能があり、すぐにログインできます。<br />
+              ぜひ触ってみて下さい。
+            </p>
             <p>内容</p>
             <p>
               自身の飲食業界の業務経験から、あったら便利だなと思ったものを作成。<br />

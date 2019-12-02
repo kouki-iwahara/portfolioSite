@@ -21,7 +21,9 @@
         <div class="row">
           <div class="col-sm-12 content_profile">
             <h3>クイズアプリ</h3>
-            <a href="https://github.com/kouki-iwahara/QuizApp_MVC"
+            <a
+              href="https://github.com/kouki-iwahara/QuizApp_MVC"
+              target="”_blank”"
               >GitHubソースコード</a
             >
             <p>【学んだこと】</p>
@@ -63,7 +65,7 @@
         <div class="row">
           <div class="col-sm-12 content_profile">
             <h3>簡易ToDoリスト</h3>
-            <a href="https://github.com/kouki-iwahara/todoApp"
+            <a href="https://github.com/kouki-iwahara/todoApp" target="”_blank”"
               >GitHubソースコード</a
             >
             <p>【学んだこと】</p>
@@ -81,6 +83,7 @@
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/2666554298f139af3433"
+                target="”_blank”"
                 >Qiita執筆:
                 @nuxt/axiosでCRUDする時のアクセス方法とデータの受け取り方</a
               >
@@ -88,6 +91,7 @@
             <p>
               <a
                 href="https://qiita.com/kouki-iwahara/items/fdf13432db05841d0e4f"
+                target="”_blank”"
                 >Qiita執筆: Nuxt + Node(Express) +
                 passportでsession認証機能の実装まとめ</a
               >
