@@ -6,6 +6,7 @@
     <vue-page />
     <node-page />
     <cost-app-page />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import JavaScript from '~/components/pages/JavaScript.vue'
 import VuePage from '~/components/pages/VuePage.vue'
 import NodePage from '~/components/pages/NodePage.vue'
 import CostAppPage from '~/components/pages/CostAppPage.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     JavaScript,
     VuePage,
     NodePage,
-    CostAppPage
+    CostAppPage,
+    Footer
   }
 }
 </script>
