@@ -85,6 +85,13 @@
                 @nuxt/axiosでCRUDする時のアクセス方法とデータの受け取り方</a
               >
             </p>
+            <p>
+              <a
+                href="https://qiita.com/kouki-iwahara/items/fdf13432db05841d0e4f"
+                >Qiita執筆: Nuxt + Node(Express) +
+                passportでsession認証機能の実装まとめ</a
+              >
+            </p>
           </div>
         </div>
       </div>
