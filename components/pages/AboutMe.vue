@@ -18,6 +18,28 @@
             <p>岩原 公貴（いわはら こうき）</p>
             <p>誕生日: 1986年7月12日生（33歳）</p>
             <p>趣味: 料理、ボルダリング</p>
+            <p>
+              Twitter:
+              <a href="https://twitter.com/iwaharasan" target="”_blank”"
+                >@iwaharasan</a
+              >
+            </p>
+            <p>
+              Qiita:
+              <a href="https://qiita.com/kouki-iwahara" target="”_blank”"
+                >https://qiita.com/kouki-iwahara</a
+              >
+            </p>
+            <p>
+              GitHub:
+              <a href="https://github.com/kouki-iwahara" target="”_blank”"
+                >https://github.com/kouki-iwahara</a
+              >
+            </p>
+            <p>
+              Contact:
+              <a href="mailto:19860712kouki@gmail.com">Email</a>
+            </p>
           </div>
         </div>
       </div>
