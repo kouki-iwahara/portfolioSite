@@ -24,7 +24,7 @@
             <a href="https://github.com/kouki-iwahara/QuizApp_MVC"
               >GitHubソースコード</a
             >
-            <p>学んだこと</p>
+            <p>【学んだこと】</p>
             <p>
               ・外部APIをバックエンドで取得しデータを生成、フロントへのデータの渡し方
             </p>
@@ -38,7 +38,7 @@
               MVCの概念に基づき、役割事にページを分割して実装しました。
             </p>
             <div>
-              <p>学んだ書籍</p>
+              <p>【学んだ書籍】</p>
               <p>・Node.js超入門[第2版]</p>
               <img
                 class="img-fluid img-thumbnail mh-100 d-block book-img"
@@ -66,7 +66,7 @@
             <a href="https://github.com/kouki-iwahara/todoApp"
               >GitHubソースコード</a
             >
-            <p>学んだこと</p>
+            <p>【学んだこと】</p>
             <p>・Nuxt+Express+MySQLでデータベースのCRUD</p>
             <p>
               axiosを使ってNodeにアクセスし、データベースのCRUDを学び、一通りの操作をできるようにしました。<br />

@@ -45,6 +45,11 @@
               <li>テストにCircleCIを使用</li>
               <li>コンポーネントの設計を、現在AtomicDesignに基づき修正中</li>
             </ul>
+            <p>
+              <span
+                >日頃の業務から問題点を見つけ出し、改善策を考え、行動に移す力があります。</span
+              >
+            </p>
           </div>
         </div>
       </div>
@@ -84,5 +89,9 @@ export default {
 .book-img {
   height: 150px;
   margin-bottom: 40px;
+}
+
+span {
+  color: red;
 }
 </style>
