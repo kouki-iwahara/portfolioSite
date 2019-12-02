@@ -8,7 +8,7 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
           <b-nav-item to="/">about me</b-nav-item>
-          <b-nav-item href="#">JavaScript</b-nav-item>
+          <b-nav-item :v-scroll-to="toJavaScript" to>JavaScript</b-nav-item>
           <b-nav-item href="#">Vue.js</b-nav-item>
           <b-nav-item href="#">Nuxt.js</b-nav-item>
           <b-nav-item href="#">Node.js</b-nav-item>
@@ -19,7 +19,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    toJavaScript: {
+      type: String,
+      default: null
+    }
+  }
+}
 </script>
 
 <style scoped>

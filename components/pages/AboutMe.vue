@@ -2,7 +2,7 @@
   <div class="content container-fluid">
     <div class="row">
       <div class="content_title col-sm-12">
-        <h2>About Me</h2>
+        <h2 :id="id">About Me</h2>
       </div>
       <div class="col-sm-4 content_image">
         <img
@@ -143,7 +143,14 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    id: {
+      type: String,
+      default: null
+    }
+  }
+}
 </script>
 
 <style scoped>

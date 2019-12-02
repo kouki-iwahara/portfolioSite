@@ -2,7 +2,7 @@
   <div class="content container-fluid">
     <div class="row">
       <div class="content_title col-sm-12">
-        <h2>Vue.js</h2>
+        <h2 :id="vueId">Vue.js</h2>
         <p>
           Vue.jsの学習は、フレームワークの理解をより深める為に、純正のJavaScriptで実装した内容と同じものを作りました。
         </p>
@@ -138,7 +138,7 @@
         </div>
       </div>
       <div class="content_title col-sm-12">
-        <h2>Nuxt.js</h2>
+        <h2 :id="nuxtId">Nuxt.js</h2>
         <p>
           Vue.jsのフレームワークであるNuxt.jsを書籍で学びました。
         </p>
@@ -168,7 +168,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    vueId: {
+      type: String,
+      default: null
+    },
+    nuxtId: {
+      type: String,
+      default: null
+    }
+  }
+}
 </script>
 
 <style scoped>

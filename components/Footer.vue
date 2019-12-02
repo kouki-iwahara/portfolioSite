@@ -33,7 +33,7 @@ export default {
 }
 
 footer {
-  background-color: #f4f5f7;
+  background-color: grey;
   padding-bottom: 30px;
 }
 .copy-right {
