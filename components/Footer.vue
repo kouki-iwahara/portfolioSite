@@ -37,6 +37,7 @@ footer {
   padding-bottom: 30px;
 }
 .copy-right {
+  color: #fff;
   padding-top: 30px;
 }
 </style>
